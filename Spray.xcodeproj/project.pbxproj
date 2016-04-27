@@ -1,0 +1,642 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F933EC621CCF129100D999FD /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F933EC611CCF129100D999FD /* SystemConfiguration.framework */; };
+		F933EC641CCF129C00D999FD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F933EC631CCF129C00D999FD /* QuartzCore.framework */; };
+		F933EC661CCF12A400D999FD /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F933EC651CCF12A400D999FD /* CFNetwork.framework */; };
+		F933EC681CCF12AF00D999FD /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F933EC671CCF12AF00D999FD /* MobileCoreServices.framework */; };
+		F933EC6A1CCF12E000D999FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F933EC691CCF12E000D999FD /* Foundation.framework */; };
+		F933EC6D1CCF132B00D999FD /* tools.m in Sources */ = {isa = PBXBuildFile; fileRef = F933EC6C1CCF132B00D999FD /* tools.m */; };
+		F933EC6F1CCF139700D999FD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F933EC6E1CCF139700D999FD /* CoreGraphics.framework */; };
+		F933EC711CCF13B400D999FD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F933EC701CCF13B400D999FD /* UIKit.framework */; };
+		F933EC731CCF13C600D999FD /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F933EC721CCF13C600D999FD /* MessageUI.framework */; };
+		F933EC771CCF148700D999FD /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F933EC761CCF148700D999FD /* MBProgressHUD.m */; };
+		F933EC8E1CCF1C7C00D999FD /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = F933EC7C1CCF1C7C00D999FD /* ASIAuthenticationDialog.m */; };
+		F933EC8F1CCF1C7C00D999FD /* ASIDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F933EC7F1CCF1C7C00D999FD /* ASIDownloadCache.m */; };
+		F933EC901CCF1C7C00D999FD /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F933EC811CCF1C7C00D999FD /* ASIFormDataRequest.m */; };
+		F933EC911CCF1C7C00D999FD /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F933EC841CCF1C7C00D999FD /* ASIHTTPRequest.m */; };
+		F933EC921CCF1C7C00D999FD /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = F933EC881CCF1C7C00D999FD /* ASIInputStream.m */; };
+		F933EC931CCF1C7C00D999FD /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = F933EC8A1CCF1C7C00D999FD /* ASINetworkQueue.m */; };
+		F933EC941CCF1C7C00D999FD /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = F933EC8D1CCF1C7C00D999FD /* Reachability.m */; };
+		F933EC961CCF1E5600D999FD /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F933EC951CCF1E5600D999FD /* Security.framework */; };
+		F933EC981CCF1F2400D999FD /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F933EC971CCF1F2400D999FD /* libz.1.2.5.tbd */; };
+		F9B518561CCC868800093545 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B518551CCC868800093545 /* main.m */; };
+		F9B518591CCC868800093545 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B518581CCC868800093545 /* AppDelegate.m */; };
+		F9B5185C1CCC868800093545 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B5185B1CCC868800093545 /* ViewController.m */; };
+		F9B5185F1CCC868800093545 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9B5185D1CCC868800093545 /* Main.storyboard */; };
+		F9B518611CCC868800093545 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9B518601CCC868800093545 /* Assets.xcassets */; };
+		F9B518641CCC868800093545 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9B518621CCC868800093545 /* LaunchScreen.storyboard */; };
+		F9B5186F1CCC868800093545 /* SprayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B5186E1CCC868800093545 /* SprayTests.m */; };
+		F9B5187A1CCC868800093545 /* SprayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B518791CCC868800093545 /* SprayUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F9B5186B1CCC868800093545 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9B518491CCC868800093545 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9B518501CCC868800093545;
+			remoteInfo = Spray;
+		};
+		F9B518761CCC868800093545 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9B518491CCC868800093545 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9B518501CCC868800093545;
+			remoteInfo = Spray;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F933EC611CCF129100D999FD /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F933EC631CCF129C00D999FD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F933EC651CCF12A400D999FD /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		F933EC671CCF12AF00D999FD /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		F933EC691CCF12E000D999FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F933EC6B1CCF132B00D999FD /* tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tools.h; sourceTree = "<group>"; };
+		F933EC6C1CCF132B00D999FD /* tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tools.m; sourceTree = "<group>"; };
+		F933EC6E1CCF139700D999FD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F933EC701CCF13B400D999FD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F933EC721CCF13C600D999FD /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		F933EC751CCF148700D999FD /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBProgressHUD.h; path = ../../../../Desktop/ASIRequestDemo/ASIRequestDemo/Lib/HUD/MBProgressHUD.h; sourceTree = "<group>"; };
+		F933EC761CCF148700D999FD /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBProgressHUD.m; path = ../../../../Desktop/ASIRequestDemo/ASIRequestDemo/Lib/HUD/MBProgressHUD.m; sourceTree = "<group>"; };
+		F933EC7B1CCF1C7C00D999FD /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIAuthenticationDialog.h; path = ../../../../Desktop/ASIRequestDemo/ASIRequestDemo/Lib/ASIHttp/ASIAuthenticationDialog.h; sourceTree = "<group>"; };
+		F933EC7C1CCF1C7C00D999FD /* ASIAuthenticationDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASIAuthenticationDialog.m; path = ../../../../Desktop/ASIRequestDemo/ASIRequestDemo/Lib/ASIHttp/ASIAuthenticationDialog.m; sourceTree = "<group>"; };
+		F933EC7D1CCF1C7C00D999FD /* ASICacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASICacheDelegate.h; path = ../../../../Desktop/ASIRequestDemo/ASIRequestDemo/Lib/ASIHttp/ASICacheDelegate.h; sourceTree = "<group>"; };
+		F933EC7E1CCF1C7C00D999FD /* ASIDownloadCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIDownloadCache.h; path = ../../../../Desktop/ASIRequestDemo/ASIRequestDemo/Lib/ASIHttp/ASIDownloadCache.h; sourceTree = "<group>"; };
+		F933EC7F1CCF1C7C00D999FD /* ASIDownloadCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASIDownloadCache.m; path = ../../../../Desktop/ASIRequestDemo/ASIRequestDemo/Lib/ASIHttp/ASIDownloadCache.m; sourceTree = "<group>"; };
+		F933EC801CCF1C7C00D999FD /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIFormDataRequest.h; path = ../../../../Desktop/ASIRequestDemo/ASIRequestDemo/Lib/ASIHttp/ASIFormDataRequest.h; sourceTree = "<group>"; };
+		F933EC811CCF1C7C00D999FD /* ASIFormDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASIFormDataRequest.m; path = ../../../../Desktop/ASIRequestDemo/ASIRequestDemo/Lib/ASIHttp/ASIFormDataRequest.m; sourceTree = "<group>"; };
+		F933EC821CCF1C7C00D999FD /* ASIHttpHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIHttpHeaders.h; path = ../../../../Desktop/ASIRequestDemo/ASIRequestDemo/Lib/ASIHttp/ASIHttpHeaders.h; sourceTree = "<group>"; };
+		F933EC831CCF1C7C00D999FD /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIHTTPRequest.h; path = ../../../../Desktop/ASIRequestDemo/ASIRequestDemo/Lib/ASIHttp/ASIHTTPRequest.h; sourceTree = "<group>"; };
+		F933EC841CCF1C7C00D999FD /* ASIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASIHTTPRequest.m; path = ../../../../Desktop/ASIRequestDemo/ASIRequestDemo/Lib/ASIHttp/ASIHTTPRequest.m; sourceTree = "<group>"; };
+		F933EC851CCF1C7C00D999FD /* ASIHTTPRequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIHTTPRequestConfig.h; path = ../../../../Desktop/ASIRequestDemo/ASIRequestDemo/Lib/ASIHttp/ASIHTTPRequestConfig.h; sourceTree = "<group>"; };
+		F933EC861CCF1C7C00D999FD /* ASIHTTPRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIHTTPRequestDelegate.h; path = ../../../../Desktop/ASIRequestDemo/ASIRequestDemo/Lib/ASIHttp/ASIHTTPRequestDelegate.h; sourceTree = "<group>"; };
+		F933EC871CCF1C7C00D999FD /* ASIInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIInputStream.h; path = ../../../../Desktop/ASIRequestDemo/ASIRequestDemo/Lib/ASIHttp/ASIInputStream.h; sourceTree = "<group>"; };
+		F933EC881CCF1C7C00D999FD /* ASIInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASIInputStream.m; path = ../../../../Desktop/ASIRequestDemo/ASIRequestDemo/Lib/ASIHttp/ASIInputStream.m; sourceTree = "<group>"; };
+		F933EC891CCF1C7C00D999FD /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASINetworkQueue.h; path = ../../../../Desktop/ASIRequestDemo/ASIRequestDemo/Lib/ASIHttp/ASINetworkQueue.h; sourceTree = "<group>"; };
+		F933EC8A1CCF1C7C00D999FD /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASINetworkQueue.m; path = ../../../../Desktop/ASIRequestDemo/ASIRequestDemo/Lib/ASIHttp/ASINetworkQueue.m; sourceTree = "<group>"; };
+		F933EC8B1CCF1C7C00D999FD /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIProgressDelegate.h; path = ../../../../Desktop/ASIRequestDemo/ASIRequestDemo/Lib/ASIHttp/ASIProgressDelegate.h; sourceTree = "<group>"; };
+		F933EC8C1CCF1C7C00D999FD /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = ../../../../Desktop/ASIRequestDemo/ASIRequestDemo/Lib/ASIHttp/Reachability.h; sourceTree = "<group>"; };
+		F933EC8D1CCF1C7C00D999FD /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = ../../../../Desktop/ASIRequestDemo/ASIRequestDemo/Lib/ASIHttp/Reachability.m; sourceTree = "<group>"; };
+		F933EC951CCF1E5600D999FD /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F933EC971CCF1F2400D999FD /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		F9B518511CCC868800093545 /* Spray.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spray.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9B518551CCC868800093545 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F9B518571CCC868800093545 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F9B518581CCC868800093545 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F9B5185A1CCC868800093545 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F9B5185B1CCC868800093545 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F9B5185E1CCC868800093545 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F9B518601CCC868800093545 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9B518631CCC868800093545 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F9B518651CCC868800093545 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9B5186A1CCC868800093545 /* SprayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SprayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9B5186E1CCC868800093545 /* SprayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SprayTests.m; sourceTree = "<group>"; };
+		F9B518701CCC868800093545 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9B518751CCC868800093545 /* SprayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SprayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9B518791CCC868800093545 /* SprayUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SprayUITests.m; sourceTree = "<group>"; };
+		F9B5187B1CCC868800093545 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9B5184E1CCC868800093545 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F933EC981CCF1F2400D999FD /* libz.1.2.5.tbd in Frameworks */,
+				F933EC961CCF1E5600D999FD /* Security.framework in Frameworks */,
+				F933EC731CCF13C600D999FD /* MessageUI.framework in Frameworks */,
+				F933EC711CCF13B400D999FD /* UIKit.framework in Frameworks */,
+				F933EC6F1CCF139700D999FD /* CoreGraphics.framework in Frameworks */,
+				F933EC6A1CCF12E000D999FD /* Foundation.framework in Frameworks */,
+				F933EC681CCF12AF00D999FD /* MobileCoreServices.framework in Frameworks */,
+				F933EC661CCF12A400D999FD /* CFNetwork.framework in Frameworks */,
+				F933EC641CCF129C00D999FD /* QuartzCore.framework in Frameworks */,
+				F933EC621CCF129100D999FD /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9B518671CCC868800093545 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9B518721CCC868800093545 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F933EC741CCF141200D999FD /* HUD */ = {
+			isa = PBXGroup;
+			children = (
+				F933EC751CCF148700D999FD /* MBProgressHUD.h */,
+				F933EC761CCF148700D999FD /* MBProgressHUD.m */,
+			);
+			name = HUD;
+			sourceTree = "<group>";
+		};
+		F933EC7A1CCF1B7300D999FD /* ASIHttp */ = {
+			isa = PBXGroup;
+			children = (
+				F933EC7B1CCF1C7C00D999FD /* ASIAuthenticationDialog.h */,
+				F933EC7C1CCF1C7C00D999FD /* ASIAuthenticationDialog.m */,
+				F933EC7D1CCF1C7C00D999FD /* ASICacheDelegate.h */,
+				F933EC7E1CCF1C7C00D999FD /* ASIDownloadCache.h */,
+				F933EC7F1CCF1C7C00D999FD /* ASIDownloadCache.m */,
+				F933EC801CCF1C7C00D999FD /* ASIFormDataRequest.h */,
+				F933EC811CCF1C7C00D999FD /* ASIFormDataRequest.m */,
+				F933EC821CCF1C7C00D999FD /* ASIHttpHeaders.h */,
+				F933EC831CCF1C7C00D999FD /* ASIHTTPRequest.h */,
+				F933EC841CCF1C7C00D999FD /* ASIHTTPRequest.m */,
+				F933EC851CCF1C7C00D999FD /* ASIHTTPRequestConfig.h */,
+				F933EC861CCF1C7C00D999FD /* ASIHTTPRequestDelegate.h */,
+				F933EC871CCF1C7C00D999FD /* ASIInputStream.h */,
+				F933EC881CCF1C7C00D999FD /* ASIInputStream.m */,
+				F933EC891CCF1C7C00D999FD /* ASINetworkQueue.h */,
+				F933EC8A1CCF1C7C00D999FD /* ASINetworkQueue.m */,
+				F933EC8B1CCF1C7C00D999FD /* ASIProgressDelegate.h */,
+				F933EC8C1CCF1C7C00D999FD /* Reachability.h */,
+				F933EC8D1CCF1C7C00D999FD /* Reachability.m */,
+			);
+			name = ASIHttp;
+			sourceTree = "<group>";
+		};
+		F9B518481CCC868800093545 = {
+			isa = PBXGroup;
+			children = (
+				F933EC971CCF1F2400D999FD /* libz.1.2.5.tbd */,
+				F933EC951CCF1E5600D999FD /* Security.framework */,
+				F933EC7A1CCF1B7300D999FD /* ASIHttp */,
+				F933EC741CCF141200D999FD /* HUD */,
+				F933EC721CCF13C600D999FD /* MessageUI.framework */,
+				F933EC701CCF13B400D999FD /* UIKit.framework */,
+				F933EC6E1CCF139700D999FD /* CoreGraphics.framework */,
+				F933EC6B1CCF132B00D999FD /* tools.h */,
+				F933EC6C1CCF132B00D999FD /* tools.m */,
+				F933EC691CCF12E000D999FD /* Foundation.framework */,
+				F933EC671CCF12AF00D999FD /* MobileCoreServices.framework */,
+				F933EC651CCF12A400D999FD /* CFNetwork.framework */,
+				F933EC631CCF129C00D999FD /* QuartzCore.framework */,
+				F933EC611CCF129100D999FD /* SystemConfiguration.framework */,
+				F9B518531CCC868800093545 /* Spray */,
+				F9B5186D1CCC868800093545 /* SprayTests */,
+				F9B518781CCC868800093545 /* SprayUITests */,
+				F9B518521CCC868800093545 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F9B518521CCC868800093545 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9B518511CCC868800093545 /* Spray.app */,
+				F9B5186A1CCC868800093545 /* SprayTests.xctest */,
+				F9B518751CCC868800093545 /* SprayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9B518531CCC868800093545 /* Spray */ = {
+			isa = PBXGroup;
+			children = (
+				F9B518571CCC868800093545 /* AppDelegate.h */,
+				F9B518581CCC868800093545 /* AppDelegate.m */,
+				F9B5185A1CCC868800093545 /* ViewController.h */,
+				F9B5185B1CCC868800093545 /* ViewController.m */,
+				F9B5185D1CCC868800093545 /* Main.storyboard */,
+				F9B518601CCC868800093545 /* Assets.xcassets */,
+				F9B518621CCC868800093545 /* LaunchScreen.storyboard */,
+				F9B518651CCC868800093545 /* Info.plist */,
+				F9B518541CCC868800093545 /* Supporting Files */,
+			);
+			path = Spray;
+			sourceTree = "<group>";
+		};
+		F9B518541CCC868800093545 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9B518551CCC868800093545 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F9B5186D1CCC868800093545 /* SprayTests */ = {
+			isa = PBXGroup;
+			children = (
+				F9B5186E1CCC868800093545 /* SprayTests.m */,
+				F9B518701CCC868800093545 /* Info.plist */,
+			);
+			path = SprayTests;
+			sourceTree = "<group>";
+		};
+		F9B518781CCC868800093545 /* SprayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F9B518791CCC868800093545 /* SprayUITests.m */,
+				F9B5187B1CCC868800093545 /* Info.plist */,
+			);
+			path = SprayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9B518501CCC868800093545 /* Spray */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9B5187E1CCC868800093545 /* Build configuration list for PBXNativeTarget "Spray" */;
+			buildPhases = (
+				F9B5184D1CCC868800093545 /* Sources */,
+				F9B5184E1CCC868800093545 /* Frameworks */,
+				F9B5184F1CCC868800093545 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spray;
+			productName = Spray;
+			productReference = F9B518511CCC868800093545 /* Spray.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F9B518691CCC868800093545 /* SprayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9B518811CCC868800093545 /* Build configuration list for PBXNativeTarget "SprayTests" */;
+			buildPhases = (
+				F9B518661CCC868800093545 /* Sources */,
+				F9B518671CCC868800093545 /* Frameworks */,
+				F9B518681CCC868800093545 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9B5186C1CCC868800093545 /* PBXTargetDependency */,
+			);
+			name = SprayTests;
+			productName = SprayTests;
+			productReference = F9B5186A1CCC868800093545 /* SprayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F9B518741CCC868800093545 /* SprayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9B518841CCC868800093545 /* Build configuration list for PBXNativeTarget "SprayUITests" */;
+			buildPhases = (
+				F9B518711CCC868800093545 /* Sources */,
+				F9B518721CCC868800093545 /* Frameworks */,
+				F9B518731CCC868800093545 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9B518771CCC868800093545 /* PBXTargetDependency */,
+			);
+			name = SprayUITests;
+			productName = SprayUITests;
+			productReference = F9B518751CCC868800093545 /* SprayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9B518491CCC868800093545 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = luoxian;
+				TargetAttributes = {
+					F9B518501CCC868800093545 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					F9B518691CCC868800093545 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F9B518501CCC868800093545;
+					};
+					F9B518741CCC868800093545 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F9B518501CCC868800093545;
+					};
+				};
+			};
+			buildConfigurationList = F9B5184C1CCC868800093545 /* Build configuration list for PBXProject "Spray" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9B518481CCC868800093545;
+			productRefGroup = F9B518521CCC868800093545 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9B518501CCC868800093545 /* Spray */,
+				F9B518691CCC868800093545 /* SprayTests */,
+				F9B518741CCC868800093545 /* SprayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9B5184F1CCC868800093545 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9B518641CCC868800093545 /* LaunchScreen.storyboard in Resources */,
+				F9B518611CCC868800093545 /* Assets.xcassets in Resources */,
+				F9B5185F1CCC868800093545 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9B518681CCC868800093545 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9B518731CCC868800093545 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9B5184D1CCC868800093545 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9B5185C1CCC868800093545 /* ViewController.m in Sources */,
+				F933EC8E1CCF1C7C00D999FD /* ASIAuthenticationDialog.m in Sources */,
+				F933EC911CCF1C7C00D999FD /* ASIHTTPRequest.m in Sources */,
+				F9B518591CCC868800093545 /* AppDelegate.m in Sources */,
+				F933EC901CCF1C7C00D999FD /* ASIFormDataRequest.m in Sources */,
+				F933EC771CCF148700D999FD /* MBProgressHUD.m in Sources */,
+				F933EC921CCF1C7C00D999FD /* ASIInputStream.m in Sources */,
+				F9B518561CCC868800093545 /* main.m in Sources */,
+				F933EC931CCF1C7C00D999FD /* ASINetworkQueue.m in Sources */,
+				F933EC6D1CCF132B00D999FD /* tools.m in Sources */,
+				F933EC941CCF1C7C00D999FD /* Reachability.m in Sources */,
+				F933EC8F1CCF1C7C00D999FD /* ASIDownloadCache.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9B518661CCC868800093545 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9B5186F1CCC868800093545 /* SprayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9B518711CCC868800093545 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9B5187A1CCC868800093545 /* SprayUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F9B5186C1CCC868800093545 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9B518501CCC868800093545 /* Spray */;
+			targetProxy = F9B5186B1CCC868800093545 /* PBXContainerItemProxy */;
+		};
+		F9B518771CCC868800093545 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9B518501CCC868800093545 /* Spray */;
+			targetProxy = F9B518761CCC868800093545 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F9B5185D1CCC868800093545 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9B5185E1CCC868800093545 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F9B518621CCC868800093545 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9B518631CCC868800093545 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9B5187C1CCC868800093545 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F9B5187D1CCC868800093545 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9B5187F1CCC868800093545 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Spray/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = luo.Spray;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F9B518801CCC868800093545 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Spray/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = luo.Spray;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F9B518821CCC868800093545 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SprayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = luo.SprayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spray.app/Spray";
+			};
+			name = Debug;
+		};
+		F9B518831CCC868800093545 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SprayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = luo.SprayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spray.app/Spray";
+			};
+			name = Release;
+		};
+		F9B518851CCC868800093545 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SprayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = luo.SprayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Spray;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F9B518861CCC868800093545 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SprayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = luo.SprayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Spray;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9B5184C1CCC868800093545 /* Build configuration list for PBXProject "Spray" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9B5187C1CCC868800093545 /* Debug */,
+				F9B5187D1CCC868800093545 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9B5187E1CCC868800093545 /* Build configuration list for PBXNativeTarget "Spray" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9B5187F1CCC868800093545 /* Debug */,
+				F9B518801CCC868800093545 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9B518811CCC868800093545 /* Build configuration list for PBXNativeTarget "SprayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9B518821CCC868800093545 /* Debug */,
+				F9B518831CCC868800093545 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9B518841CCC868800093545 /* Build configuration list for PBXNativeTarget "SprayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9B518851CCC868800093545 /* Debug */,
+				F9B518861CCC868800093545 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9B518491CCC868800093545 /* Project object */;
+}
